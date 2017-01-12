@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    //- Use x-ua-compatible if you want to use IE 9 or 8. 
+    //- meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content=htmlWebpackPlugin.options.title)
+    include partials/og_tags.pug
+    title #{htmlWebpackPlugin.options.title}
+    //- link(rel="icon", type="image/png", href=require("./images/favicon-32x32.png"), sizes="32x32")
+    //- link(rel="icon", type="image/png", href=require("./images/favicon-16x16.png"), sizes="16x16")
+
+  body
+    #app
+    include partials/main.pug
+    include partials/google_analytics.pug

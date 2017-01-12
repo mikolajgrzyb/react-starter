@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import '~normalize.css/normalize.css';
+@import './scss_partials/partial';
+
+body {
+  background-image: url(images/bg.png);
+  background-repeat: repeat;
+  font-family: 'Oswald', sans-serif;
+}
