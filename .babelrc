@@ -5,5 +5,7 @@
       "presets": ["react-optimize"]
     }
   },
-  "plugins": ["syntax-class-properties"]
+  "plugins": [
+    "syntax-class-properties"
+  ]
 }
