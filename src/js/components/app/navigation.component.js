@@ -4,7 +4,7 @@ import {LinkComponent} from '@components/shared/link.component'
 export class NavigationComponent extends React.Component {
   render() {
     return <nav>
-      <LinkComponent to="/home"> Home </LinkComponent>
+      <LinkComponent to="/"> Home </LinkComponent>
     </nav>
   }
 }
