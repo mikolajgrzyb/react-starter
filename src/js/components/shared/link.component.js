@@ -14,7 +14,7 @@ export class LinkComponent extends React.Component {
   static propTypes = {
     to: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
-    onClick: PropTypes.func,
+    onClick: PropTypes.func
   };
 
   static defaultProps = {
@@ -40,6 +40,11 @@ export class LinkComponent extends React.Component {
 
   render() {
     const { to, children, ...props } = this.props;
-    return <a href={to} {...props} onClick={this.handleClick}>{children}</a>;
+    let active = HISTORY.location.pathname == to
+    if (active) {
+      return <span {...props} className='active'>{children} </span>
+    } else {
+      return <a href={to} {...props} onClick={this.handleClick}>{children}</a>;
+    }
   }
 }

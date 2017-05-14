@@ -2010,6 +2010,28 @@
       "resolved": "https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.4.tgz",
       "dev": true
     },
+    "create-react-class": {
+      "version": "15.5.3",
+      "from": "create-react-class@>=15.5.1 <16.0.0",
+      "resolved": "https://registry.npmjs.org/create-react-class/-/create-react-class-15.5.3.tgz",
+      "dependencies": {
+        "js-tokens": {
+          "version": "3.0.1",
+          "from": "js-tokens@>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.1.tgz"
+        },
+        "loose-envify": {
+          "version": "1.3.1",
+          "from": "loose-envify@>=1.3.1 <2.0.0",
+          "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz"
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "from": "object-assign@>=4.1.1 <5.0.0",
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+        }
+      }
+    },
     "cross-spawn": {
       "version": "3.0.1",
       "from": "cross-spawn@>=3.0.0 <4.0.0",
@@ -4005,6 +4027,11 @@
       "resolved": "https://registry.npmjs.org/hoek/-/hoek-2.16.3.tgz",
       "dev": true
     },
+    "hoist-non-react-statics": {
+      "version": "1.2.0",
+      "from": "hoist-non-react-statics@>=1.0.3 <2.0.0",
+      "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz"
+    },
     "home-or-tmp": {
       "version": "2.0.0",
       "from": "home-or-tmp@>=2.0.0 <3.0.0",
@@ -4691,8 +4718,12 @@
     "lodash": {
       "version": "4.17.4",
       "from": "lodash@>=4.17.3 <5.0.0",
-      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz",
-      "dev": true
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz"
+    },
+    "lodash-es": {
+      "version": "4.17.4",
+      "from": "lodash-es@>=4.2.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.4.tgz"
     },
     "lodash._baseassign": {
       "version": "3.2.0",
@@ -5944,6 +5975,11 @@
       "from": "react-dom@>=15.4.2 <16.0.0",
       "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-15.5.3.tgz"
     },
+    "react-redux": {
+      "version": "5.0.4",
+      "from": "react-redux@>=5.0.4 <6.0.0",
+      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-5.0.4.tgz"
+    },
     "read-all-stream": {
       "version": "3.1.0",
       "from": "read-all-stream@>=3.0.0 <4.0.0",
@@ -5998,6 +6034,11 @@
       "from": "reduce-function-call@>=1.0.1 <2.0.0",
       "resolved": "https://registry.npmjs.org/reduce-function-call/-/reduce-function-call-1.0.2.tgz",
       "dev": true
+    },
+    "redux": {
+      "version": "3.6.0",
+      "from": "redux@latest",
+      "resolved": "https://registry.npmjs.org/redux/-/redux-3.6.0.tgz"
     },
     "regenerate": {
       "version": "1.3.2",
@@ -6648,6 +6689,11 @@
       "version": "0.7.1",
       "from": "svgo@>=0.7.0 <0.8.0",
       "resolved": "https://registry.npmjs.org/svgo/-/svgo-0.7.1.tgz"
+    },
+    "symbol-observable": {
+      "version": "1.0.4",
+      "from": "symbol-observable@>=1.0.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.0.4.tgz"
     },
     "table": {
       "version": "3.8.3",

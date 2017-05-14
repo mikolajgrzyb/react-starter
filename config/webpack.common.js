@@ -79,6 +79,7 @@ module.exports = function (options) {
     resolve: {
       alias: {
         "@components": path.resolve(__dirname, '../src/js/components/'),
+        "@reducers": path.resolve(__dirname, '../src/js/reducers/'),
         "@services": path.resolve(__dirname, '../src/js/services/'),
       },
     },

@@ -1,7 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Router from 'universal-router';
-import { AppComponent } from '@components/app/app.component.js'
+import { store } from '@services/store.service'; 
+import { Provider } from 'react-redux'
+import { AppComponent } from '@components/app/app.component'
 import { HomeComponent } from '@components/home/home.component'
 import { NotFoundComponent } from '@components/shared/404.component'
 
@@ -12,8 +14,10 @@ const routes = [
 
 function renderAppWithResult(result) {
   ReactDOM.render(
-    <AppComponent currentPage={result} />, document.getElementById('app')
-  );
+    <Provider store={store}>
+      <AppComponent currentPage={result} />
+    </Provider>
+    , document.getElementById('app'));
 }
 
 export function resolveRoute(pathName) {
