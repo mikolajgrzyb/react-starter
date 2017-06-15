@@ -5,8 +5,9 @@ import {LinkComponent} from '@components/shared/link.component'
 
 export class NavigationComponent extends React.Component {
   render() {
-    return <nav>
+    return <nav className='b-navigation'>
       <LinkComponent to="/"> Home </LinkComponent>
+      <LinkComponent to="/about"> About </LinkComponent>
     </nav>
   }
 }

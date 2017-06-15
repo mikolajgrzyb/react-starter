@@ -2,13 +2,15 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Router from 'universal-router';
 import { store } from '@services/store.service'; 
-import { Provider } from 'react-redux'
-import { AppComponent } from '@components/app/app.component'
-import { HomeComponent } from '@components/home/home.component'
-import { NotFoundComponent } from '@components/shared/404.component'
+import { Provider } from 'react-redux';
+import { AppComponent } from '@components/app/app.component';
+import { HomeComponent } from '@components/home/home.component';
+import { AboutComponent } from '@components/about/about.component';
+import { NotFoundComponent } from '@components/shared/404.component';
 
 const routes = [
   { path: '/', action: () => <HomeComponent /> },
+  { path: '/about', action: () => <AboutComponent/>},
   { path: '*', action: () => <NotFoundComponent /> }
 ];
 
