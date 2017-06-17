@@ -27,12 +27,18 @@ module.exports = webpackMerge(commonConfig({env: ENV}), {
     rules: [
       {
         test: /\.scss$/,
-        exclude: path.resolve(__dirname, '../node_modules'),
         use: [
           'style-loader',
           'css-loader',
           'postcss-loader',
-          'sass-loader'
+          {
+            loader: 'sass-loader', options: {
+              data: '@import \'variables\';',
+              includePaths: [
+                helpers.root('src', 'styles')
+              ]
+            }
+          }
         ]
       },
     ]
