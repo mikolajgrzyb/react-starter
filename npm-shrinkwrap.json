@@ -5966,14 +5966,82 @@
       }
     },
     "react": {
-      "version": "15.5.3",
-      "from": "react@>=15.4.2 <16.0.0",
-      "resolved": "https://registry.npmjs.org/react/-/react-15.5.3.tgz"
+      "version": "16.1.1",
+      "from": "react@16.1.1",
+      "resolved": "https://registry.npmjs.org/react/-/react-16.1.1.tgz",
+      "dependencies": {
+        "core-js": {
+          "version": "1.2.7",
+          "from": "core-js@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
+        },
+        "fbjs": {
+          "version": "0.8.16",
+          "from": "fbjs@>=0.8.16 <0.9.0",
+          "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.16.tgz"
+        },
+        "js-tokens": {
+          "version": "3.0.2",
+          "from": "js-tokens@>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.2.tgz"
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "from": "object-assign@>=4.1.1 <5.0.0",
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+        },
+        "prop-types": {
+          "version": "15.6.0",
+          "from": "prop-types@>=15.6.0 <16.0.0",
+          "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.6.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "1.3.1",
+              "from": "loose-envify@>=1.3.1 <2.0.0",
+              "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz"
+            }
+          }
+        }
+      }
     },
     "react-dom": {
-      "version": "15.5.3",
-      "from": "react-dom@>=15.4.2 <16.0.0",
-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-15.5.3.tgz"
+      "version": "16.1.1",
+      "from": "react-dom@16.1.1",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.1.1.tgz",
+      "dependencies": {
+        "core-js": {
+          "version": "1.2.7",
+          "from": "core-js@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
+        },
+        "fbjs": {
+          "version": "0.8.16",
+          "from": "fbjs@>=0.8.16 <0.9.0",
+          "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.16.tgz"
+        },
+        "js-tokens": {
+          "version": "3.0.2",
+          "from": "js-tokens@>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-3.0.2.tgz"
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "from": "object-assign@>=4.1.1 <5.0.0",
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+        },
+        "prop-types": {
+          "version": "15.6.0",
+          "from": "prop-types@>=15.6.0 <16.0.0",
+          "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.6.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "1.3.1",
+              "from": "loose-envify@>=1.3.1 <2.0.0",
+              "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz"
+            }
+          }
+        }
+      }
     },
     "react-redux": {
       "version": "5.0.4",
@@ -6036,9 +6104,9 @@
       "dev": true
     },
     "redux": {
-      "version": "3.6.0",
-      "from": "redux@latest",
-      "resolved": "https://registry.npmjs.org/redux/-/redux-3.6.0.tgz"
+      "version": "3.7.2",
+      "from": "redux@3.7.2",
+      "resolved": "https://registry.npmjs.org/redux/-/redux-3.7.2.tgz"
     },
     "regenerate": {
       "version": "1.3.2",
